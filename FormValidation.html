@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      <title>FormValidation  </title>
+      <style>
+        body{
+          border: solid black 2px;
+          padding: 5px;
+        }
+        div{
+          margin: 5px;
+        }
+      </style>
+    </head>
+    <body>
+       <form id="form" action="/" method="GET " >
+         <div>
+           <Label for="name" id="name">  Name :</Label> 
+           <input type="text" id="name"></input>
+         </div>
+         <div>
+           <label for="password"> Password</label>
+           <input id="password" name="password" type="password">
+         </div>
+        <button type="submit"> submit</button>
+        <div id="error"></div>
+         
+       </form>
+       <script src="FormValidation.js"></script>      
+    </body>
+</html>
