@@ -6,11 +6,21 @@
      <style>
          div{
              margin: 10px;
-             padding: 2px;
+             padding: 10px;
+             border: solid black 1px;
          }
          body{
-              border: solid black 5px;
+              display: flex;             
+              align-self: center; 
+              justify-content: center;
+              
          }
+         form{
+             background-color:aquamarine;
+             width: 50%;
+             border: solid black 5px;
+         }
+
      </style>
  </head>
  <body>
@@ -40,9 +50,9 @@
              <input  type="url" name="url" id="url"> 
          </div>
          <div>
-             <div>
-             Favorite Food
-             </div>     
+             
+             Favorite Food 
+              <div>  
             <label for="banana">Banana</label>
             <input type="checkbox" name="banana" id="banana"  >
 
@@ -50,7 +60,8 @@
             <input type="checkbox" name="Apple" id="Apple"  >
 
             <label for="pinapple">pinapple</label>
-            <input type="checkbox" name="pinapple" id="pinapple"  >  
+            <input type="checkbox" name="pinapple" id="pinapple" >
+        </div>  
         </div>
 
         <div>
